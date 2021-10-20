@@ -186,7 +186,7 @@ function Bootstrap_Select(){
 	function footer_fixed() {
 	  jQuery('.site-footer').css('display', 'block');
 	  jQuery('.site-footer').css('height', 'auto');
-	  var footerHeight = jQuery('.site-footer').outerHeight();
+	  var footerHeight = jQuery('.site-footer').outerHeight() + 20;
 	  jQuery('.footer-fixed > .page-wraper').css('padding-bottom', footerHeight);
 	  jQuery('.site-footer').css('height', footerHeight);
 	}
